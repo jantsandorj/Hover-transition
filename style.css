@@ -1,0 +1,32 @@
+/* main CSS */
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+.lastSq{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+/* Transition  */
+/* hover section */
+.lastSq:hover{
+    width: 100%;
+}
+/* focus transition */
+#button:focus{
+    width: 100%;
+}
